@@ -1,7 +1,7 @@
 <template>
    <div>
       <my-addition></my-addition>
-      <p>---------------------------------------------------------</p>
+      <p>--------------------------</p>
       <my-subtration></my-subtration>
    </div>
 </template>
@@ -19,7 +19,6 @@ export default {
   }
 }
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
