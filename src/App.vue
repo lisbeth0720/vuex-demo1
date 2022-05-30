@@ -1,7 +1,7 @@
 <template>
    <div>
       <my-addition></my-addition>
-      <p>--------------------------</p>
+      <p>-------------------------------------------</p>
       <my-subtration></my-subtration>
    </div>
 </template>
@@ -13,7 +13,7 @@ import Subtraction from './components/Subtraction.vue'
 export default {
   name: 'App',
   components: {
-    //起别名
+    // 起别名
     "my-addition":Addition,
     "my-subtration":Subtraction
   }
