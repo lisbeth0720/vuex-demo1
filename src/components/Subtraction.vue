@@ -52,6 +52,7 @@ export default {
     //   //这里可以使用mapMutations中的函数
     //   this.sub();
     // },
+    
     // btnHandle2(){
     //   //这里可以使用mapMutations中的函数
     //   //传递参数3
@@ -62,6 +63,7 @@ export default {
     //   //这里可以使用mapMutations中的函数
     //   this.subAsync();
     // },
+    
     // btnHandle22(){
     //   //这里可以使用mapMutations中的函数
     //   //传递参数3
