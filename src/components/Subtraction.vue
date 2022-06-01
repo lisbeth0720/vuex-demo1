@@ -17,6 +17,7 @@
 <script>
 //组件中访问state中数据的第2种方式
 //触发mutations的第二种方式，触发actions的第二种方式
+
 //1.从vuex中按需导入mapState函数
 //组件中使用store中getters的第2种方式 mapGetters
 import {mapState,mapMutations,mapActions,mapGetters} from 'vuex'
@@ -31,7 +32,9 @@ export default {
   components: {
    
   },
+  
   //通过刚导入的mapState函数，将当前组件需要的全局数据映射为当前组件的computed计算属性
+  
   //2.将全局数据映射为当前组件中的计算属性
   computed:{
     //...是展开运算符的意思
