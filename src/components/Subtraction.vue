@@ -6,6 +6,7 @@
      <button @click="btnHandle2">-{{n}}</button>
      <button @click="btnHandle11">-1(Async)</button>
      <button @click="btnHandle22">-{{n}}(Async)</button> -->
+     
      <!-- 简化上面的操作，可以直接调用actions里的函数,直接用actions里的函数作为点击事件的触发函数 -->
       <button @click="sub">-1</button>
       <button @click="subN(n)">-{{n}}</button>
@@ -72,6 +73,7 @@ export default {
     //   //传递参数3
     //   this.subNAsync(this.n);
     // },
+    
   }
 }
 </script>
